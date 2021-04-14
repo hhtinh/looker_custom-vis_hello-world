@@ -1,11 +1,9 @@
-project_name: "tinh_custom-vis_hello-world"
-
 constant: vis_id {
-  value: "hello_world_tinh"
+  value: "hello-world-new"
   export: override_optional
 }
 constant: vis_label {
-  value: "Hello World Custom Visualization by Tinh"
+  value: "Hello World"
   export: override_optional
 }
 visualization: {
