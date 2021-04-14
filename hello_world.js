@@ -2,7 +2,7 @@ looker.plugins.visualizations.add({
   // Id and Label are legacy properties that no longer have any function besides documenting
   // what the visualization used to have. The properties are now set via the manifest
   // form within the admin/visualizations page of Looker
-  id: "hello_world",
+  id: "hello-world-tinh",
   label: "Hello World",
   options: {
     font_size: {
@@ -22,7 +22,7 @@ looker.plugins.visualizations.add({
     // Insert a <style> tag with some styles we'll use later.
     element.innerHTML = `
       <style>
-        .hello-world-vis {
+        .hello-world-tinh {
           /* Vertical centering */
           height: 100%;
           display: flex;
@@ -41,7 +41,7 @@ looker.plugins.visualizations.add({
 
     // Create a container element to let us center the text.
     var container = element.appendChild(document.createElement("div"));
-    container.className = "hello-world-vis";
+    container.className = "hello-world-tinh";
 
     // Create an element to contain the text.
     this._textElement = container.appendChild(document.createElement("div"));
